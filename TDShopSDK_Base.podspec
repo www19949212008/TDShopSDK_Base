@@ -131,7 +131,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   # spec.requires_arc = true
-
+  spec.swift_version = '4.0'
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'Alamofire', '~> 4.8.0'
   spec.dependency 'YYModel', '~> 1.0.4'
