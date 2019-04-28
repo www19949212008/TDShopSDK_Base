@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -133,6 +133,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
   spec.swift_version = '5.0'
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'Alamofire', '~> 4.8.0'
+  spec.dependency 'Alamofire', '~> 5.0.0-beta.5'
   spec.dependency 'YYModel', '~> 1.0.4'
 end
